@@ -60,7 +60,19 @@ li{
 /*=======Light/Dark theme button=======*/
 
 /*=======Scroll bar=======*/
+::-web-kit-scrollbar {
+  width: 10px;
+  background: var(--scroll-bar-color);
+}
 
+::-webkit-scrollbar-thumb{
+  background: var(--scroll-thum-color);
+  border-radius: 5em;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: var(--scroll-thumb-hover-color);
+}
 /*=======Header=======*/
 header {
   z-index: 99999;
